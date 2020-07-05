@@ -19,7 +19,7 @@ photorecodownload
 ## Usage
 * Windows Install (Use PowerShell)
 ```
-git clone xxx
+git clone https://github.com/hashihei/photorecodownload
 ```
 
 * Configure
