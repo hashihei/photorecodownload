@@ -2,6 +2,7 @@
 ## Name
 photorecodownload
 * フォトレコから画像を一括ダウンロードするスクリプト
+* 複数アルバムが設定されている場合は最新(ログイン後に一番左に設置されている)アルバムの画像をダウンロードします。
 
 ## Requirement
 * python python3.8.x
@@ -25,6 +26,7 @@ git clone https://github.com/hashihei/photorecodownload
 * Configure
     1. etc/login.conf
         * [MUST]
+        ログインIDとログインパスワードを設定して利用します。他はデフォルト値のままで動作します。
             * ダウンロード画像枚数
                 NOS = 100
             * ログインユーザID
